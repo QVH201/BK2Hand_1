@@ -210,6 +210,12 @@ class ProductController extends Controller
         }
     }
 
+    public function manage(){
+        return view('product.manage', [
+            
+        ]);
+    }
+
     public function edit(Product $product)
     {
 
